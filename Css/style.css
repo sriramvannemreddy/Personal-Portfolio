@@ -298,3 +298,18 @@ a.card:hover .icon {
   margin-bottom: 14px;
   display: block;
 }
+/* LeetCode nav icon */
+.nav-links a.nav-icon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.nav-icon img {
+  width: 26px;
+  height: 26px;
+  transition: 0.3s;
+}
+.nav-icon:hover img {
+  transform: scale(1.2);
+}
